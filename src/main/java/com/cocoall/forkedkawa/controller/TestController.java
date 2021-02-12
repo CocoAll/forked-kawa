@@ -16,6 +16,3 @@ public class TestController {
         return ResponseEntity.ok("Test call api");
     }
 }
-/*
-* REGARDE POUR INTEGRER JACKSON POUR LES WEBSERVICES !!!!!
- */
