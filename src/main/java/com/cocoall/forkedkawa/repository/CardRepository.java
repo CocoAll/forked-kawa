@@ -6,5 +6,5 @@ import org.springframework.data.querydsl.QuerydslPredicateExecutor;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface CardRepository extends JpaRepository<Card, Long>, QuerydslPredicateExecutor<Card> {
+public interface CardRepository extends JpaRepository<Card, Long> {
 }

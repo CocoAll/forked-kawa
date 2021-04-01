@@ -12,12 +12,10 @@ public class DeckCard implements Serializable {
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Long id;
 
-    @Id
     @ManyToOne
     @JoinColumn(name="deck_id", nullable=false)
     private Deck deck;
 
-    @Id
     @OneToOne
     @JoinColumn(name="card_id", nullable=false)
     private Card card;

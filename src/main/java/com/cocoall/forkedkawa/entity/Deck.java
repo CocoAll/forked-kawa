@@ -17,4 +17,7 @@ public class Deck {
 
     @OneToMany(mappedBy="deck")
     private List<DeckCard> carteList;
+
+    @OneToOne
+    private Format format;
 }

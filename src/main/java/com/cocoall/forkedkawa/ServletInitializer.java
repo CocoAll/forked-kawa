@@ -7,7 +7,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(SiteVitrineApplication.class);
+		return application.sources(MagicDeckManagerApplication.class);
 	}
 
 }
