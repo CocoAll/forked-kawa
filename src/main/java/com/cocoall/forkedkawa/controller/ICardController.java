@@ -7,5 +7,5 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping
 @Component
-public class CardController {
+public interface ICardController {
 }

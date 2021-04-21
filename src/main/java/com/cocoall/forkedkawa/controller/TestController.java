@@ -2,6 +2,7 @@ package com.cocoall.forkedkawa.controller;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,4 +20,5 @@ public class TestController {
     public ResponseEntity<String> getTest() {
         return ResponseEntity.ok("Test call api");
     }
+    
 }

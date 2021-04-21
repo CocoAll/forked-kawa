@@ -13,7 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>Magic Deck Manager</name>
-	<description>Application degestion de mes decklist magic</description>
+	<description>Application de gestion de mes decklist magic</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
