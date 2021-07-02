@@ -13,7 +13,7 @@ public class Deck {
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Long id;
 
-    @Column
+    @Column(nullable = false)
     private String nom;
 
     @OneToMany(mappedBy="deck")
